@@ -774,3 +774,29 @@ if (isset($_SERVER['DEVDESKTOP_DRUPAL_SETTINGS_DIR']) && file_exists($_SERVER['D
 }
 // </DDSETTINGS>
 
+$config_directories['sync'] = "sites/default/files/config_acqTmp-2020-02-25T13.56.09-9195/sync";
+
+/**
+//D6 DB config
+$db_url = 'mysqli://drupaluser@127.0.0.1:33067/moddev2';
+
+//D7 DB config
+if (!isset($databases))
+  $databases = array();
+
+$databases['default']['default'] = array(
+  'driver' => 'mysql',
+  'database' => 'moddev2',
+  'username' => 'drupaluser',
+  'password' => '',
+  'host' => '127.0.0.1',
+  'port' => 33067 );
+
+if (empty($config_directories['active']))
+  $config_directories['active'] = "sites/default/files/config_acqTmp-2020-02-25T13.56.09-9195/active";
+if (empty($config_directories['staging']))
+  $config_directories['staging'] = "sites/default/files/config_acqTmp-2020-02-25T13.56.09-9195/staging";
+if (empty($settings['hash_salt']))
+  $settings['hash_salt'] = 'ZGVmYXVsdADRAwAAAAAAAAEAAAAAAAAAIE11Ag==';
+ */
+
