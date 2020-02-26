@@ -2,41 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbfde393-6162-4456-86a4-4f52cf53aef7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/modules/custom/hello_world/hello_world.info.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/moddev2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/moddev2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/5e558d950b6d0_block.html.twig_WtYtBjAK-7t2okkVPMUQaydaH/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/5e558d950b6d0_block.html.twig_WtYtBjAK-7t2okkVPMUQaydaH/RfkgTxrMmIl-SIt9EBfmHm8jxE_yT0oqhqSYOJhqLtY.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/5e558d950b6d0_html.html.twig_TRShiKUfUYVaO5aEXjitP9ERh/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/5e558d950b6d0_html.html.twig_TRShiKUfUYVaO5aEXjitP9ERh/4h7BDt0zUCYh210znvbbrPgQXJRNF9LhrvUgwMqaOYc.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/5e558d950b6d0_links.html.twig_PJxHYFd-3cRUAIePIyCMXzU80/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/5e558d950b6d0_links.html.twig_PJxHYFd-3cRUAIePIyCMXzU80/fA6Wa1Hg2dELNz3zFdaCxS3uXJwtlMPOP9LVLduiSpQ.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/5e558d950b6d0_off-canvas-page-wrapper.h_tqVofofrB3rLOwe3Od1LImS34/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/5e558d950b6d0_off-canvas-page-wrapper.h_tqVofofrB3rLOwe3Od1LImS34/PXyVdxWrk0TpzLHykYEg3r-mqT4dSMfmATvKt4rx_0I.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/5e558d950b6d0_page-title.html.twig_U0F_lLMQCkAxoHMnrnXcIE4eb/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/5e558d950b6d0_page-title.html.twig_U0F_lLMQCkAxoHMnrnXcIE4eb/RMkIs4jzeD7o5QoC49EWBGW3dxQIeKFvmipEf52EYWw.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/5e558d950b6d0_page-title.html.twig_YTxbZt0X1Uqr5TVlqIbdHXGvk/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/5e558d950b6d0_page-title.html.twig_YTxbZt0X1Uqr5TVlqIbdHXGvk/IjkSAlJf13e-jTRe6mE8esqW7YEpcXFAiHusR7mkAaA.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/5e558d950b6d0_page.html.twig_zdjNO6pw3g0gBAMTfUewvxg8Y/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/5e558d950b6d0_page.html.twig_zdjNO6pw3g0gBAMTfUewvxg8Y/gt0ygLRjjJIwbyx-K_ZN8Zn-bmz02jn8Cha36oQP1XA.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/5e558d950b6d0_region--header.html.twig_y1U0PCDtQwKtfoMzhkD2SDRkn/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/5e558d950b6d0_region--header.html.twig_y1U0PCDtQwKtfoMzhkD2SDRkn/FHOBuq85OnhCgDpgIgi7Y0aQWYUDtQ3_2UK4xBp0bIg.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/5e558d950b6d0_region.html.twig_9dMKrbNdsGb1CwCpBzxTjrTE0/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/php/twig/5e558d950b6d0_region.html.twig_9dMKrbNdsGb1CwCpBzxTjrTE0/opdKS5nBtZ_YhLvcBfjdOew0ISne86gP-rrT0MYzzaU.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/sites/default/settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/sites/default/settings.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/include_paths.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/include_paths.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +161,7 @@
       <option name="presentableId" value="Default" />
       <updated>1582660975336</updated>
       <workItem from="1582660976925" duration="5438000" />
-      <workItem from="1582729084114" duration="5104000" />
+      <workItem from="1582729084114" duration="5873000" />
     </task>
     <servers />
   </component>

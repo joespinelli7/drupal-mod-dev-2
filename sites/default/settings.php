@@ -758,7 +758,7 @@ $settings['entity_update_backup'] = TRUE;
 
 $databases['default']['default'] = array(
   'driver' => 'mysql',
-  'database' => 'd8moddev',
+  'database' => 'moddev2',
   'username' => 'drupaluser',
   'password' => '',
   'host' => '127.0.0.1',
