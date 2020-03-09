@@ -1,0 +1,7 @@
+#register a class within the Service Container and use it as a dependency to allow access all over code base
+services:
+  hello_world.salutation:
+    class: Drupal\hello_world\HelloWorldSalutation
+    # tags inform the container if they serve a specific purpose and can be assigned a priority
+    tags:
+      - {name: tag_name}
