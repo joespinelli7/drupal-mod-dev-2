@@ -12,7 +12,7 @@ class SalutationConfigurationForm extends ConfigFormBase {
   /**
    * {@inheritdoc}
    *
-   * Used to specify that we are loading configuration objects for editing as oppposed to reading (immmutable)
+   * Used to specify that we are loading configuration objects for editing as opposed to reading (immutable)
    */
   protected function getEditableConfigNames() {
     return ['hello_world.custom_salutation'];
@@ -47,13 +47,30 @@ class SalutationConfigurationForm extends ConfigFormBase {
 
   /**
    * {@inheritdoc}
+   */
+//  public function validateForm(array &$form, FormStateInterface $form_state) {
+//    parent::validateForm($form, $form_state);
+//    $check_null = $form_state->getValue('salutation');
+//
+//    if ($check_null === null) {
+//      $form_state->setValue('salutation', '');
+//    }
+//  }
+
+  /**
+   * {@inheritdoc}
    *
    * Handler that gets called upon form submission (if passed validateForm() w/o errors).
    */
   public function submitForm(array &$form, FormStateInterface $form_state) {
+    if ($form_state->getValue('salutation') === null) {
+      return;
+    }
     $this->config('hello_world.custom_salutation')
-      ->set('salutatiom', $form_state->getValue('salutation'))
+//      set-> is storing our custom message to the key 'salutation'
+      ->set('salutation', $form_state->getValue('salutation'))
       ->save();
+
 
     parent::submitForm($form, $form_state);
   }

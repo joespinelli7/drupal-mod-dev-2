@@ -2,6 +2,9 @@
 services:
   hello_world.salutation:
     class: Drupal\hello_world\HelloWorldSalutation
-    # tags inform the container if they serve a specific purpose and can be assigned a priority
-    tags:
-      - {name: tag_name}
+#    arguments: ['@config.factory']: adding the Drupal configuration factory as an arg, (the service responsible for loading config objects
+#    like the ones that can be created in the SalutationConfigurationForm class. Now the HelloWorldSalutation class can access the salutation message
+    arguments: ['@config.factory']
+#    tags inform the container if they serve a specific purpose and can be assigned a priority
+#    tags:
+#      - {name: tag_name}
