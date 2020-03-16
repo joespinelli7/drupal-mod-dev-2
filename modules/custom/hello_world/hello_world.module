@@ -3,6 +3,12 @@
 use Drupal\Core\Routing\RouteMatchInterface;
 
 /**
+ * NOTE on container:
+ * there is a single object called the service container, we also call it a "dependency injection container". It's basically an associative
+ * array of services. In fact, it holds every useful object in the system and each has a nickname, that you can access and use.
+ */
+
+/**
  * Implements hook_help()
  * works by telling Drupal if a user is looking at the route we specified (help.page.hello_world in this example),
  * show the info contained in the $output variable.
