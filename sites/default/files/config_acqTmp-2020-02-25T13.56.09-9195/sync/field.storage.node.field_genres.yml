@@ -1,0 +1,21 @@
+uuid: ba81c6c0-908e-44e0-ba07-8aae9c9e13f5
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_genres
+field_name: field_genres
+entity_type: node
+type: list_string
+settings:
+  allowed_values: {  }
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

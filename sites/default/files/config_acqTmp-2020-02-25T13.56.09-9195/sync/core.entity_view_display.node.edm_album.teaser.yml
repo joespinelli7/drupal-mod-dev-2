@@ -1,0 +1,30 @@
+uuid: 072522f1-5d80-4abe-b495-133c589268ab
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.edm_album.field_album
+    - field.field.node.edm_album.field_album_title
+    - field.field.node.edm_album.field_genres
+    - field.field.node.edm_album.field_labels
+    - field.field.node.edm_album.field_producer
+    - node.type.edm_album
+  module:
+    - user
+id: node.edm_album.teaser
+targetEntityType: node
+bundle: edm_album
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_album: true
+  field_album_title: true
+  field_genres: true
+  field_labels: true
+  field_producer: true

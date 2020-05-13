@@ -1,0 +1,19 @@
+uuid: 2e9b8720-c7ba-4a1b-a124-618e1f77a87c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_album_title
+    - node.type.edm_album
+id: node.edm_album.field_album_title
+field_name: field_album_title
+entity_type: node
+bundle: edm_album
+label: 'Album Title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

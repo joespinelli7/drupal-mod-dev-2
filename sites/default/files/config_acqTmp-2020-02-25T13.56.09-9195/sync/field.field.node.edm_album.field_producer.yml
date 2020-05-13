@@ -1,0 +1,19 @@
+uuid: 30a634ae-3499-4b42-a539-2dcfb5f3b2df
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_producer
+    - node.type.edm_album
+id: node.edm_album.field_producer
+field_name: field_producer
+entity_type: node
+bundle: edm_album
+label: Producer
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

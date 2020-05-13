@@ -1,0 +1,21 @@
+uuid: 1d6d28e6-d0d0-4036-a92c-bcd4d5d2a5b4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_genres
+    - node.type.edm_album
+  module:
+    - options
+id: node.edm_album.field_genres
+field_name: field_genres
+entity_type: node
+bundle: edm_album
+label: Genres
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

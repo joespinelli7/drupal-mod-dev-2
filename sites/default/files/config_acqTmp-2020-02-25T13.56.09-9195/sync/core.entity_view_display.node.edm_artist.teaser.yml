@@ -1,0 +1,30 @@
+uuid: f6a71b21-3297-4488-accc-d820c0a18463
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.edm_artist.body
+    - node.type.edm_artist
+  module:
+    - text
+    - user
+id: node.edm_artist.teaser
+targetEntityType: node
+bundle: edm_artist
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

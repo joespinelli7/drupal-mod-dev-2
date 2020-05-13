@@ -1,0 +1,23 @@
+uuid: 9eee55a6-1adb-432e-80bf-fbf41881fb61
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.edm_artist
+  module:
+    - text
+id: node.edm_artist.body
+field_name: body
+entity_type: node
+bundle: edm_artist
+label: 'Name Of Artist'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

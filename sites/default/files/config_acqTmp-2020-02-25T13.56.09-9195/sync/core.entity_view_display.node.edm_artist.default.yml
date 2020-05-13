@@ -1,0 +1,28 @@
+uuid: 7289fdc7-43ef-4aa8-bb60-feca1f88063e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.edm_artist.body
+    - node.type.edm_artist
+  module:
+    - text
+    - user
+id: node.edm_artist.default
+targetEntityType: node
+bundle: edm_artist
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }
